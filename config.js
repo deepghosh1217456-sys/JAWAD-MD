@@ -10,10 +10,10 @@ global.session = "https://khanxmd-pair.onrender.com";
  
  
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
+SESSION_ID: process.env.SESSION_ID || "IK~eIVwGT6S#m7IvkCcPyrzqdpwTKfQy3-jJCY_sZTkQPPp7NJGy038", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
 SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 ANTI_DELETE: process.env.ANTI_DELETE || "true", // can be set to inboxonly/allchats/true/false
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
 AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "true",
 AUTO_LIKE_EMOJIS: process.env.AUTO_LIKE_EMOJIS || "💛,❤️,💜,🤍,💙", //Input Yours Custom...Can be one Emoji or Multiple Emojis Separated by Commas
 AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
